@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+}
+
+.section {
+    background-color: #f7f7fc;
+    height: 340px;
+}
+
+.header {
+    max-width: 550px;
+    height: 136px;
+}
