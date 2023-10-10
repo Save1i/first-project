@@ -62,3 +62,26 @@ a {
     display: flex;
     align-items: center;
 }
+
+.section__inner {
+    max-width: 550px;
+    margin: auto;
+    padding: 16px 0 24px 0;
+    display: grid;
+    gap: 16px 0;
+}
+
+.text {
+    color: #4e4b66;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.25px;
+}
+
+.text-blue {
+    color: #0576f0;
+    font-style: italic;
+}
