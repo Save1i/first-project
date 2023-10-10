@@ -18,8 +18,11 @@ a {
 }
 
 .section {
-    background-color: #f7f7fc;
     padding: 0 20px 0 20px;
+}
+
+.section-white {
+    background-color: #f7f7fc;
 }
 
 .container {
@@ -88,4 +91,8 @@ a {
 .text-blue {
     color: #0576f0;
     font-style: italic;
+}
+
+.section-grey {
+    background-color: #eff0f6;
 }
