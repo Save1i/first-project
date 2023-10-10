@@ -20,6 +20,7 @@ a {
 .section {
     background-color: #f7f7fc;
     height: 340px;
+    padding: 0 20px 0 20px;
 }
 
 .header {
