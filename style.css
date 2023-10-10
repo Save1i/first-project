@@ -19,8 +19,11 @@ a {
 
 .section {
     background-color: #f7f7fc;
-    height: 340px;
     padding: 0 20px 0 20px;
+}
+
+.container {
+    background-size: 100% 100%;
 }
 
 .header {
