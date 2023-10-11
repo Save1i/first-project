@@ -17,6 +17,13 @@ a {
     padding: 0;
 }
 
+h1,
+h2 {
+    color: #14142b;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .section {
     padding: 0 20px 0 20px;
 }
@@ -93,6 +100,51 @@ a {
     font-style: italic;
 }
 
+.section__main {
+    padding: 16px 0 24px 0;
+}
+
 .section-grey {
     background-color: #eff0f6;
+}
+
+.box-white {
+    border-radius: 8px;
+    background: #fff;
+    width: 550px;
+    padding: 16px 16px 24px 16px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading-number {
+    font-size: 32px;
+}
+
+.rectangle {
+    width: 1px;
+    height: 25px;
+    background: #14142b;
+}
+
+.heading-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.link {
+    color: #0576f0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
 }
