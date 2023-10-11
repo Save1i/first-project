@@ -138,6 +138,12 @@ h2 {
     font-weight: 700;
 }
 
+.main__text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
 .link {
     color: #0576f0;
     font-family: Poppins;
