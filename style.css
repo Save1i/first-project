@@ -12,7 +12,8 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-a {
+a,
+span {
     margin: 0;
     padding: 0;
 }
@@ -22,6 +23,8 @@ h2 {
     color: #14142b;
     font-weight: 700;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .section {
@@ -120,11 +123,16 @@ h2 {
     margin: auto;
 }
 
+.container__main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .heading {
     display: flex;
-    gap: 12px;
+    gap: 0px 12px;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .heading-number {
@@ -154,6 +162,13 @@ h2 {
     gap: 16px;
 }
 
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
 .link {
     color: #0576f0;
     font-family: Poppins;
@@ -163,4 +178,5 @@ h2 {
     line-height: 22px; /* 157.143% */
     letter-spacing: 0.25px;
     text-decoration-line: underline;
+    display: inline-block;
 }
