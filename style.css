@@ -38,18 +38,18 @@ h2 {
 
 .header {
     max-width: 550px;
-    height: 136px;
+    min-height: 136px;
     margin: auto;
 }
 
 .header__inner {
-    height: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__inner-text {
-    width: 440px;
+    max-width: 440px;
 }
 
 .logo {
@@ -65,23 +65,27 @@ h2 {
     font-weight: 700;
     line-height: 32px; /* 133.333% */
     letter-spacing: 0.75px;
+    flex: 1 0 0;
 }
 
 .header__issue {
     padding: 0 0 16px 0;
+    flex: 1 0 0;
 }
 
 .header__inner-img {
     height: 100%;
     display: flex;
     align-items: center;
+    padding: 16px 0;
 }
 
 .section__inner {
     max-width: 550px;
     margin: auto;
     padding: 16px 0 24px 0;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px 0;
 }
 
@@ -101,7 +105,7 @@ h2 {
 }
 
 .section__main {
-    padding: 16px 0 24px 0;
+    padding: 16px 16px 24px 16px;
 }
 
 .section-grey {
@@ -111,7 +115,7 @@ h2 {
 .box-white {
     border-radius: 8px;
     background: #fff;
-    width: 550px;
+    max-width: 550px;
     padding: 16px 16px 24px 16px;
     margin: auto;
 }
@@ -134,8 +138,14 @@ h2 {
 }
 
 .heading-text {
+    color: #14142b;
+    font-family: Poppins;
     font-size: 16px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.5px;
+    flex: 1 0 0;
 }
 
 .main__text {
